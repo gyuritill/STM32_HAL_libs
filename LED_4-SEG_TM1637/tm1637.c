@@ -175,6 +175,6 @@ void TM1637_writeStop(TM1637_DEVICE *dev){
 }
 
 void TM1637_bitDelay(void){
-	HAL_Delay(1);
+	HAL_Delay(0);
 }
 
